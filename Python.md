@@ -52,7 +52,7 @@ pip freeze [OR] pip3 freeze
 pip freeze > requirements.txt
 ```
 
-### Running in local
+### Running in local with Uvicorn
 ```sh
 python3 -m uvicorn main:app --reload --port 3000
 
